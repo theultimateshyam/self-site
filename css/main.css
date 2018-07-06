@@ -1,0 +1,47 @@
+.home {
+    height: 100vh;
+    width: 100vw;
+    background-color: #3949ab;
+}
+
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -80px 0 0 -75.5px;
+    border-radius: 50%;
+}
+
+.handles {
+    list-style: none;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    margin-left: -207px;
+}
+
+.handles li {
+    list-style: none;
+    float: left;
+    padding: 10px 50px;
+}
+
+.handles li:first-child {
+    padding-left: 0px;
+}
+
+.handles li:last-child {
+    padding-right: 0px;
+}
+
+.handles li a {
+    color: #f1f1f1;
+    font-size: 48px;
+}
+
+.card {
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: 5px 5px #212121;
+}
