@@ -1,9 +1,11 @@
 body{
-    background-image: url("/images/bokeh.jpg")
+    background-image: url("/images/bokeh.jpg");
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 .home-wrapper {
     background-color: azure;
+    border-radius: 20px;
     height: 90vh;
     width: 90%;
     overflow: hidden;
@@ -12,14 +14,11 @@ body{
 
 }
 
-
-
-img {
+.logo {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -80px 0 0 -75.5px;
-    border-radius: 50%;
+    margin: -155.5px 0 0 -125.5px;
 }
 
 .handles {
@@ -52,10 +51,26 @@ img {
     font-size: 48px;
 }
 
-.card {
-    max-width: 1000px;
-    margin: 0 auto;
-    border-radius: 5px;
+h1 {
+    text-align: center;
+}
+.about-us {
+    
+    background-color: azure;
+    border-radius: 20px;
+    height: 70vh;
+    width: 90%;
+    overflow: hidden;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 10px;
+    margin: 0 5%;
+}
+
+.about-us p{
+    padding: 50px;
+}
+
+
+.gallery.container img {
+    height: auto;
+    width: 100%;
 }
